@@ -18,7 +18,7 @@ namespace Challenge
         {
             // parametros de configuracion
             // configurar tamaño de matriz
-            int dimension = 4;
+            int dimension = 1000;
             
             
             
@@ -210,12 +210,12 @@ namespace Challenge
 
         public static int[,] readFile()
         {
-            String input = File.ReadAllText(@"C:\Users\vaio\source\repos\Challenge\Challenge\4x4.txt");
-            //String input = File.ReadAllText(@"C:\Users\vaio\source\repos\Challenge\Challenge\map.txt");
+            //String input = File.ReadAllText(@"C:\Users\vaio\source\repos\Challenge\Challenge\4x4.txt");
+            String input = File.ReadAllText(@"C:\Users\vaio\source\repos\Challenge\Challenge\map.txt");
 
             int i = 0, j = 0;
             // configurar tamaño de matriz
-            int dimension = 4;
+            int dimension = 1000;
             
 
             int dimensionFila = dimension;
